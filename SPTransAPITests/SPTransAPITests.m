@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SPTManager.h"
 
 @interface SPTransAPITests : XCTestCase
 
@@ -28,7 +29,8 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    SPTManager *manager = [[SPTManager alloc] init];
+    [manager login];
 }
 
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SPTManager.h"
 
-@interface SPTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface SPTAppDelegate : UIResponder <UIApplicationDelegate, SPTManagerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

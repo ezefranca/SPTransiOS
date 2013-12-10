@@ -8,6 +8,7 @@
 
 #import "SPTAppDelegate.h"
 
+
 @implementation SPTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -16,7 +17,21 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    SPTManager *aManager = [[SPTManager alloc] init];
+    [aManager login];
+    [aManager setDelegate:self];
+    [aManager buscaLinha:@"8022-10"];
+    [aManager buscaParadasPorLinha:2085];
+    [aManager buscaPosicao:2085];
+    
     return YES;
+    
+}
+
+- (void) receiveBuscaLinhaResults: (NSArray *) result {
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
