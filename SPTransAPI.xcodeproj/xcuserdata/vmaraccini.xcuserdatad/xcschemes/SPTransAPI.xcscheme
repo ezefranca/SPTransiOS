@@ -14,9 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D8E5738962AD45D1856160C0"
+               BuildableName = "libPods.a"
+               BlueprintName = "Pods"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4A826241856490800D81FA7"
                BuildableName = "SPTransAPI.app"
                BlueprintName = "SPTransAPI"
+               ReferencedContainer = "container:SPTransAPI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4A8263F1856490800D81FA7"
+               BuildableName = "SPTransAPITests.xctest"
+               BlueprintName = "SPTransAPITests"
                ReferencedContainer = "container:SPTransAPI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

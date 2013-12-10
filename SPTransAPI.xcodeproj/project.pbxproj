@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		496FF0A613354386968FA192 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1896134F16A847268B057EBD /* libPods.a */; };
+		D44B6366185684DA006BC7D2 /* SPTInfoParada.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B6365185684DA006BC7D2 /* SPTInfoParada.m */; };
+		D44B6369185684FB006BC7D2 /* SPTInfoLinha.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B6368185684FB006BC7D2 /* SPTInfoLinha.m */; };
+		D44B636C1856ADC4006BC7D2 /* SPTInfoPosicao.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B636B1856ADC4006BC7D2 /* SPTInfoPosicao.m */; };
 		D4A826291856490800D81FA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A826281856490800D81FA7 /* Foundation.framework */; };
 		D4A8262B1856490800D81FA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A8262A1856490800D81FA7 /* CoreGraphics.framework */; };
 		D4A8262D1856490800D81FA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A8262C1856490800D81FA7 /* UIKit.framework */; };
@@ -19,6 +23,7 @@
 		D4A826441856490800D81FA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A8262C1856490800D81FA7 /* UIKit.framework */; };
 		D4A8264C1856490800D81FA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4A8264A1856490800D81FA7 /* InfoPlist.strings */; };
 		D4A8264E1856490800D81FA7 /* SPTransAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A8264D1856490800D81FA7 /* SPTransAPITests.m */; };
+		D4A8265A18564CAD00D81FA7 /* SPTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A8265918564CAD00D81FA7 /* SPTManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1896134F16A847268B057EBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2899D1FFC94C3696C41457 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D44B6364185684DA006BC7D2 /* SPTInfoParada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTInfoParada.h; path = Classes/SPTInfoParada.h; sourceTree = "<group>"; };
+		D44B6365185684DA006BC7D2 /* SPTInfoParada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTInfoParada.m; path = Classes/SPTInfoParada.m; sourceTree = "<group>"; };
+		D44B6367185684FB006BC7D2 /* SPTInfoLinha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTInfoLinha.h; path = Classes/SPTInfoLinha.h; sourceTree = "<group>"; };
+		D44B6368185684FB006BC7D2 /* SPTInfoLinha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTInfoLinha.m; path = Classes/SPTInfoLinha.m; sourceTree = "<group>"; };
+		D44B636A1856ADC4006BC7D2 /* SPTInfoPosicao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTInfoPosicao.h; path = Classes/SPTInfoPosicao.h; sourceTree = "<group>"; };
+		D44B636B1856ADC4006BC7D2 /* SPTInfoPosicao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTInfoPosicao.m; path = Classes/SPTInfoPosicao.m; sourceTree = "<group>"; };
 		D4A826251856490800D81FA7 /* SPTransAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPTransAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A826281856490800D81FA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4A8262A1856490800D81FA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +61,8 @@
 		D4A826491856490800D81FA7 /* SPTransAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPTransAPITests-Info.plist"; sourceTree = "<group>"; };
 		D4A8264B1856490800D81FA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4A8264D1856490800D81FA7 /* SPTransAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTransAPITests.m; sourceTree = "<group>"; };
+		D4A8265818564CAD00D81FA7 /* SPTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTManager.h; path = Classes/SPTManager.h; sourceTree = "<group>"; };
+		D4A8265918564CAD00D81FA7 /* SPTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTManager.m; path = Classes/SPTManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 				D4A8262B1856490800D81FA7 /* CoreGraphics.framework in Frameworks */,
 				D4A8262D1856490800D81FA7 /* UIKit.framework in Frameworks */,
 				D4A826291856490800D81FA7 /* Foundation.framework in Frameworks */,
+				496FF0A613354386968FA192 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,7 @@
 				D4A826471856490800D81FA7 /* SPTransAPITests */,
 				D4A826271856490800D81FA7 /* Frameworks */,
 				D4A826261856490800D81FA7 /* Products */,
+				8F2899D1FFC94C3696C41457 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +117,7 @@
 				D4A8262A1856490800D81FA7 /* CoreGraphics.framework */,
 				D4A8262C1856490800D81FA7 /* UIKit.framework */,
 				D4A826411856490800D81FA7 /* XCTest.framework */,
+				1896134F16A847268B057EBD /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +125,7 @@
 		D4A8262E1856490800D81FA7 /* SPTransAPI */ = {
 			isa = PBXGroup;
 			children = (
+				D4A826571856497600D81FA7 /* Classes */,
 				D4A826371856490800D81FA7 /* SPTAppDelegate.h */,
 				D4A826381856490800D81FA7 /* SPTAppDelegate.m */,
 				D4A8263A1856490800D81FA7 /* Images.xcassets */,
@@ -144,6 +163,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D4A826571856497600D81FA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4A8265818564CAD00D81FA7 /* SPTManager.h */,
+				D4A8265918564CAD00D81FA7 /* SPTManager.m */,
+				D44B6367185684FB006BC7D2 /* SPTInfoLinha.h */,
+				D44B6368185684FB006BC7D2 /* SPTInfoLinha.m */,
+				D44B6364185684DA006BC7D2 /* SPTInfoParada.h */,
+				D44B6365185684DA006BC7D2 /* SPTInfoParada.m */,
+				D44B636A1856ADC4006BC7D2 /* SPTInfoPosicao.h */,
+				D44B636B1856ADC4006BC7D2 /* SPTInfoPosicao.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4A826511856490800D81FA7 /* Build configuration list for PBXNativeTarget "SPTransAPI" */;
 			buildPhases = (
+				5A7543D3D32046DFB9A39224 /* Check Pods Manifest.lock */,
 				D4A826211856490800D81FA7 /* Sources */,
 				D4A826221856490800D81FA7 /* Frameworks */,
 				D4A826231856490800D81FA7 /* Resources */,
+				8FC42237EAC545899B8F14BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,13 +271,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A7543D3D32046DFB9A39224 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC42237EAC545899B8F14BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4A826211856490800D81FA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44B6366185684DA006BC7D2 /* SPTInfoParada.m in Sources */,
 				D4A826391856490800D81FA7 /* SPTAppDelegate.m in Sources */,
 				D4A826351856490800D81FA7 /* main.m in Sources */,
+				D4A8265A18564CAD00D81FA7 /* SPTManager.m in Sources */,
+				D44B636C1856ADC4006BC7D2 /* SPTInfoPosicao.m in Sources */,
+				D44B6369185684FB006BC7D2 /* SPTInfoLinha.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,12 +432,15 @@
 		};
 		D4A826521856490800D81FA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2899D1FFC94C3696C41457 /* Pods.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPTransAPI/SPTransAPI-Prefix.pch";
 				INFOPLIST_FILE = "SPTransAPI/SPTransAPI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,12 +448,15 @@
 		};
 		D4A826531856490800D81FA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2899D1FFC94C3696C41457 /* Pods.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPTransAPI/SPTransAPI-Prefix.pch";
 				INFOPLIST_FILE = "SPTransAPI/SPTransAPI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,6 +465,7 @@
 		D4A826551856490800D81FA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SPTransAPI.app/SPTransAPI";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -399,6 +479,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Dados/Dropbox/poli/SPTransAPI/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "SPTransAPITests/SPTransAPITests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -409,6 +494,7 @@
 		D4A826561856490800D81FA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SPTransAPI.app/SPTransAPI";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -418,6 +504,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPTransAPI/SPTransAPI-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Dados/Dropbox/poli/SPTransAPI/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "SPTransAPITests/SPTransAPITests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -444,6 +535,7 @@
 				D4A826531856490800D81FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4A826541856490800D81FA7 /* Build configuration list for PBXNativeTarget "SPTransAPITests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +544,7 @@
 				D4A826561856490800D81FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
